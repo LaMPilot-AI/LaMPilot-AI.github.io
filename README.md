@@ -1,4 +1,4 @@
-# medpiechat.github.io
+# lampilot.github.io
 
 <h1 align='center'> Tesla Club NIT, Patna 🤖 </h1>
 Tesla Club is the official club of electrical engineering department of NIT, Patna.
