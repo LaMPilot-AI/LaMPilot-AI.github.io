@@ -12,7 +12,7 @@ const Team = () => {
   const members = [
     {
       name: 'Xu Cao',
-      position: 'Co-founder & CEO & Technologist',
+      position: 'Co-founder',
       image: '/images/xucao.jpg',
       linkedin: 'https://www.linkedin.com/in/irohxu/',
       github: 'https://github.com/IrohXu',
@@ -23,7 +23,7 @@ const Team = () => {
     },
     {
       name: 'Wenqian Ye',
-      position: 'Co-founder & CTO',
+      position: 'Co-founder',
       image: '/images/wenqian.jpg',
       linkedin: 'https://www.linkedin.com/in/wenqian-yeh/',
       github: 'https://github.com/wenqian-ye',
@@ -34,13 +34,13 @@ const Team = () => {
     },
     {
       name: 'Yunsheng Ma',
-      position: 'Co-founder & CEO & Technologist',
-      image: '/images/xucao.jpg',
-      linkedin: 'https://www.linkedin.com/in/irohxu/',
-      github: 'https://github.com/IrohXu',
-      twitter: 'https://twitter.com/IrohXu',
-      about: "Ex-Software Engineer & CS PhD Student, UIUC",
-      email: "yunsheng.max@gmail.com",
+      position: 'Co-founder',
+      image: '/images/yunsheng.png',
+      linkedin: 'https://www.linkedin.com/in/yunsheng-ma',
+      github: 'https://github.com/maysonma',
+      twitter: 'https://twitter.com/yunshengmax',
+      about: "PhD Student, Purdue University",
+      email: "yunsheng@purdue.edu",
       id: "2"
     }
   ]

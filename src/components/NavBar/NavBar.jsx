@@ -39,13 +39,13 @@ const NavBar = () => {
                                 )}
                             </NavLink>
                         </li>
-                        <li className="mr-8">
-                            <NavLink style={{ textDecoration: "none" }} to="/events">
-                                {({ isActive, isPending }) => (
-                                    <span className={`hover:underline underline-offset-4 decoration-pink-500 ${isActive ? "text-sky-500 font-medium" : "text-white"}`}>Demo</span>
-                                )}
-                            </NavLink>
-                        </li>
+                        {/*<li className="mr-8">*/}
+                        {/*    <NavLink style={{ textDecoration: "none" }} to="/events">*/}
+                        {/*        {({ isActive, isPending }) => (*/}
+                        {/*            <span className={`hover:underline underline-offset-4 decoration-pink-500 ${isActive ? "text-sky-500 font-medium" : "text-white"}`}>Demo</span>*/}
+                        {/*        )}*/}
+                        {/*    </NavLink>*/}
+                        {/*</li>*/}
                         {/* <li>
                             <NavLink style={{ textDecoration: "none" }} to="/news">
                                 {({ isActive, isPending }) => (

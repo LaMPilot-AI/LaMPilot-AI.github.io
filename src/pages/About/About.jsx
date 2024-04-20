@@ -3,31 +3,41 @@ import Heading from '../../components/Headings/Heading'
 
 const About = () => {
 
-  document.title = 'MedPIE | About';
+    document.title = 'LaMPilot AI | About';
 
-  return (
-    <div className='pt-16 min-h-screen'>
-      <Heading heading="About"></Heading>
-      <div className="paragraph-body">
-        <p data-aos="fade-up" >
-          <span>MedPIE</span> is a revolutionary start-up at the forefront of disease progression simulation, addressing a critical gap in current healthcare research. The challenge of lacking continuous, individualized patient imaging data over time has hampered the accurate forecasting of disease progression. This obstacle has stymied our ability to tailor treatment plans and predict patient outcomes. However, MedPIE has pioneered an innovative solution: a framework leveraging the latest advancements in large language models and text-to-image generative models to simulate disease progression realistically and personally for each patient.
-        </p>
-
-        <p data-aos="fade-up" >
-          Our unique approach, the Progressive Image Editing (PIE), allows for the manipulation of disease-related image features, resulting in precise disease progression simulations. The sophistication of our methodology includes a theoretical analysis of the iterative refining process as a gradient descent with an exponentially decayed learning rate.
-        </p>
-
-        <p data-aos="fade-up" >
-          Our proprietary technology has the potential to revolutionize clinical practice and medical research. By enabling healthcare providers to model disease trajectories accurately over time, we can predict treatment responses and improve patient outcomes. MedPIE is proud to be the pioneer in producing disease progression images that meet real-world standards. Our commitment to innovation and our dedicated approach to improving patient care positions us at the cutting edge of medical research and technology.
-        </p>
-
-        <div className="m-2 basis-[40%] sm:px-5  py-2 px-2 overflow-hidden rounded-xl lg:mt-0 md:mt-0 mt-5 " d>
-          <img data-aos="fade-up" src="./images/progression.jpg" alt="pie_fig_1" />
+    return (
+        <div className='pt-16 min-h-screen'>
+            <Heading heading="About"></Heading>
+            <div className="paragraph-body">
+                <p data-aos="fade-up">
+                    <span>LaMPilot AI</span> is a pioneering startup at the forefront of revolutionizing the in-cabin
+                    experience of autonomous vehicles through advanced AI technologies. We are addressing the critical
+                    need for more intuitive, personalized, and intelligent human-vehicle interactions as vehicles become
+                    increasingly automated. LaMPilot AI's cutting-edge solution leverages the latest advancements in
+                    large language models (LLMs) and generative AI to create a highly sophisticated intelligent voice
+                    assistant for autonomous vehicles.
+                </p>
+                <p data-aos="fade-up">
+                    Our unique approach integrates LLMs with the vehicle's existing APIs, enabling seamless control over
+                    various in-cabin functions such as air conditioning, seat and mirror adjustment, navigation, and
+                    Level 2 (L2) features like Adaptive Cruise Control (ACC) and Lane Keeping Assist (LKA). By
+                    harnessing the power of natural language processing and understanding, LaMPilot AI's voice assistant
+                    serves as a smart agent, helping drivers complete daily tasks through intuitive voice commands and
+                    conversations.
+                </p>
+                <p data-aos="fade-up">
+                    LaMPilot AI's proprietary technology has the potential to redefine the future of transportation and
+                    the way people interact with their vehicles. By offering a highly personalized and intelligent
+                    in-cabin experience, we aim to enhance user comfort, convenience, and safety. Our commitment to
+                    innovation and our dedication to pushing the boundaries of AI-powered human-vehicle interaction
+                    position us at the forefront of the automotive industry's transformation.
+                </p>
+                <div className="m-2 basis-[40%] sm:px-5 py-2 px-2 overflow-hidden rounded-xl lg:mt-0 md:mt-0 mt-5">
+                    <img data-aos="fade-up" src="./images/lampilot.png" alt="lampilot_ai_demo"/>
+                </div>
+            </div>
         </div>
-
-      </div>
-    </div>
-  )
+    );
 }
 
 export default About

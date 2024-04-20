@@ -48,7 +48,7 @@ import Faq from '../../components/HomePage/Faq';
 const HomePage = () => {
   document.title = 'LaMPilot AI | Home';
   return (
-    <div className='pt-16 bg-black'>
+    <div className='pt-16 bg-[#2E294E]'>
       <div className='justify-center flex items-center my-[5rem] lg:gap-1 md:gap-2 gap-6 flex-col text-5xl font-bold'>
         <h1 data-aos="zoom-in" className='font-extrabold text-center text-transparent lg:text-8xl md:text-6xl text-5xl mx-8 bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>LaMPilot AI</h1>
         <h1 data-aos="zoom-in" className='font-bold text-center text-transparent lg:text-4xl md:text-3xl text-3xl mx-5 bg-clip-text bg-gradient-to-b from-gray-300 to-gray-600 my-3'>Pioneer the future of in-cabin experience via LLMs</h1>
