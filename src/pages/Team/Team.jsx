@@ -31,6 +31,17 @@ const Team = () => {
       about: "Ex-Software Engineer & CS PhD Student, University of Virginia",
       email: "wenqian@virginia.edu",
       id: "1"
+    },
+    {
+      name: 'Yunsheng Ma',
+      position: 'Co-founder & CEO & Technologist',
+      image: '/images/xucao.jpg',
+      linkedin: 'https://www.linkedin.com/in/irohxu/',
+      github: 'https://github.com/IrohXu',
+      twitter: 'https://twitter.com/IrohXu',
+      about: "Ex-Software Engineer & CS PhD Student, UIUC",
+      email: "yunsheng.max@gmail.com",
+      id: "2"
     }
   ]
 
