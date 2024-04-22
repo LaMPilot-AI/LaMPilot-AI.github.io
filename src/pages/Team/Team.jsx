@@ -6,7 +6,7 @@ import TeamCard from './TeamCard'
 
 
 const Team = () => {
-  document.title = 'MedPIE | Team';
+  document.title = 'LaMPilot | Team';
 
 
   const members = [
