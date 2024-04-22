@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r git@github.com:LamPilotAI/lampilotai.github.io.git"
+    "deploy": "gh-pages -d dist -r git@github.com:LaMPilot-AI/LaMPilot-AI.github.io.git"
   },
   "dependencies": {
     "@react-three/drei": "^9.60.0",
